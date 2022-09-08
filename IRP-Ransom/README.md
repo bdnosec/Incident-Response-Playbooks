@@ -557,8 +557,10 @@ Determine which of the following actions need to be performed:
 <details open>
 <summary>Expand/Colapse</summary>
 
-- Change krbtgt Password
-- Reset All Priviledge Accounts
+- Change krbtgt Password (Change twice, allow sufficent time for replication between PW change)
+- Reset All Priviledged Accounts
+- Reset Machine Account Passwords
+- Reset Domain Trusts (https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/manage/ad-forest-recovery-reset-trust)
 
 </details>
 
